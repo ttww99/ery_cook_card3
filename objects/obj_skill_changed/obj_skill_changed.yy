@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "skill",
+    "path": "folders/Objects/skill.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_skill_changed",

@@ -26,8 +26,8 @@ else{
 	show_message(global.card_delay==1)
 	*/
 ddrag=0
-		x=room_width/2-((global.card_hand-1)/2-card_sequence)*room_width/11
-		y=1/8192*sqr((room_width/2-((global.card_hand-1)/2-card_sequence)*room_width/11)-room_width/2)+room_height/5*4
+		x=room_width/2-((global.card_hand-1)/2-card_sequence)*room_width/21
+		y=1/8192*sqr((room_width/2-((global.card_hand-1)/2-card_sequence)*room_width/11)-room_width/2)+room_height/10*9
 		global.card_delay=0
 		global.double_click_prevent=0
 		//global.card_deleted_index=-1

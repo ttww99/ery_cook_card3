@@ -23,6 +23,13 @@ global.enemy_seq[4]=0
 global.front_seq_imsi=0
 global.skill_front_seq=0
 
+global.battle_card_ingredient[1]=0
+global.battle_card_ingredient[2]=0
+global.battle_card_ingredient[3]=0
+global.battle_card_ingredient[4]=0
+global.battle_card_ingredient_sum=0
+
+
 for(global.imsi=0;global.imsi<global.party_max;global.imsi++){//아군 캐릭터 새성
 	a=instance_create_depth(room_width*13/32-(global.imsi)*180,room_height/2,-100,obj_battle_character)
 	with(a){

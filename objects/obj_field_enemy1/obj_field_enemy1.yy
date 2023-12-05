@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "field",
+    "path": "folders/Objects/field.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_field_enemy1",

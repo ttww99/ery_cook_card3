@@ -3,6 +3,7 @@
 //show_message("show_methe moeny")
 //with(obj_card2)
 //if(global.card_deleted_index==card_sequence)
+show_debug_message("4")
 if( point_distance(x,y,room_width/2,room_height/2>=4) && des==1){
 
 	direction=point_direction(x,y,room_width/2,room_height/2)

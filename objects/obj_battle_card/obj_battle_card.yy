@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Sprite22",
-    "path": "sprites/Sprite22/Sprite22.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "unknown",
-    "path": "folders/Objects/unknown.yy",
+    "name": "battle",
+    "path": "folders/Objects/battle.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object26",
+  "name": "obj_battle_card",
   "tags": [],
   "resourceType": "GMObject",
 }

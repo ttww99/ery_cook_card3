@@ -25,8 +25,8 @@ if(global.card_case==3 && global.card_delay==0 && des==0){
 
 
 if(card_sequence<global.card_hand_next)//카드 확대
-	if(mouse_x>=x-sprite_width/12 && mouse_x<=x+sprite_width/12 && 
-	mouse_y >= y-sprite_height/12 && mouse_y<= y+sprite_height/12){
+	if(mouse_x>=x-sprite_width/16 && mouse_x<=x+sprite_width/16 && 
+	mouse_y >= y-sprite_height/16 && mouse_y<= y+sprite_height/16){
 		//show_debug_message("err")
 		mouse_on_show=1
 		depth=-96
