@@ -3,6 +3,7 @@
 
 
 
+global.battle_card_ingredient_sum=0
 
 
 

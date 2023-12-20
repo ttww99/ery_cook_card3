@@ -3,7 +3,7 @@
 //show_message(string("card_sequence : ")+string(card_sequence))
 if(ddrag==1){
 if(des==0 && mouse_y<=room_height/9*5 && 
-global.double_click_prevent==1 && global.card_delay==1){
+global.double_click_prevent==1 && global.card_delay==1){ // 카드 냄
 //	show_message(string("syc : ")+string(card_sequence))
 	
 	global.card_hand-=1
@@ -15,6 +15,11 @@ global.double_click_prevent==1 && global.card_delay==1){
 	ddrag=0
 	
 	alarm[4]=1
+	global.battle_card_ingredient[global.battle_card_ingredient_num]=card_num
+	global.battle_card_ingredient_num+=1
+	//show_message(global.battle_card_ingredient[global.battle_card_ingredient_num-1])
+	//show_message(card_num)
+	global.battle_card_ingredient_sum+=global.card_list[card_num].card_value
 }
 else{
 	//show_message(string("card_sequence : ")+string(card_sequence))

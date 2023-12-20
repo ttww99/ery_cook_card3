@@ -23,11 +23,12 @@ global.enemy_seq[4]=0
 global.front_seq_imsi=0
 global.skill_front_seq=0
 
+global.battle_card_ingredient[0]=0
 global.battle_card_ingredient[1]=0
 global.battle_card_ingredient[2]=0
 global.battle_card_ingredient[3]=0
-global.battle_card_ingredient[4]=0
 global.battle_card_ingredient_sum=0
+global.battle_card_ingredient_num=0
 
 
 for(global.imsi=0;global.imsi<global.party_max;global.imsi++){//아군 캐릭터 새성
@@ -59,7 +60,7 @@ for(global.imsi=0;global.imsi<global.card_list_num;global.imsi++){//카드 생�
 	a=instance_create_depth(room_width-100,room_height/2,-100,obj_card2)
 	with(a){
 		depth=-95+global.imsi
-		card_num=ds_list_find_value(global.card_no_seq,global.imsi+1)
+		card_num=ds_list_find_value(global.card_no_seq,global.imsi+1)//error+1)
 		card_sequence=global.imsi
 		//image_angle=(card_sequence-5)*-5
 
@@ -93,3 +94,4 @@ if(global.battle_paze[1]+global.battle_paze[2]+global.battle_paze[3]+global.batt
 	}
 }
 
+instance_create_depth(0,0,-95,obj_battle_card)

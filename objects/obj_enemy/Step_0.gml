@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if(hp<=0)
+	instance_destroy(self)
 if(set_attack!=global.battle_turn){//attack_type
 	randomize()
 	attack_type=irandom(2)+1
