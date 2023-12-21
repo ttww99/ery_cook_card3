@@ -2,8 +2,11 @@
 // You can write your code in this editor
 //show_message(string("card_sequence : ")+string(card_sequence))
 if(ddrag==1){
-if(des==0 && mouse_y<=room_height/9*5 && 
-global.double_click_prevent==1 && global.card_delay==1){ // 카드 냄
+	//show_message(string("1: ")+string(des))
+	//show_message(string("2: ")+string(mouse_y<=room_height/9*5))
+	//show_message(string("3: ")+string())
+if(des==0 && mouse_y<=room_height/9*5 /*&& 
+global.double_click_prevent==1*/ && global.card_delay==1){ // 카드 냄
 //	show_message(string("syc : ")+string(card_sequence))
 	
 	global.card_hand-=1
@@ -11,10 +14,10 @@ global.double_click_prevent==1 && global.card_delay==1){ // 카드 냄
 	//global.card_delay=0
 	global.double_click_prevent=0
 
-			des=1
+	des=1
 	ddrag=0
 	
-	alarm[4]=1
+	alarm[4]=1//before destroy
 	global.battle_card_ingredient[global.battle_card_ingredient_num]=card_num
 	global.battle_card_ingredient_num+=1
 	//show_message(global.battle_card_ingredient[global.battle_card_ingredient_num-1])
