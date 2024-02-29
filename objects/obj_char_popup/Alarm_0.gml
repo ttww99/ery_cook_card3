@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 
-delay=0
+//delay=0
 show_hero_save=0
 

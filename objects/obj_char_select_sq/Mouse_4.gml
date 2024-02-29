@@ -24,7 +24,7 @@ if(global.drag==0){
 if(global.character_select!=-1){//obj character클릭 후
 	//show_message(global.character_select)
 	var chr_check=0
-	for(i=0;i<global.party_max;i++)
+	for(var i=0;i<global.party_max;i++)
 		if(global.party[i].seq==global.character_select)
 			chr_check+=1
 	if(chr_check==0){//중복 없음

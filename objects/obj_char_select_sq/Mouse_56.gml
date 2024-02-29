@@ -3,7 +3,7 @@
 
 if(global.drag==1){
 
-a=instance_nearest(mouse_x,mouse_y,obj_char_select_sq)
+var a=instance_nearest(mouse_x,mouse_y,obj_char_select_sq)
 if( a!=-4 ){
 	if(a.seq!=global.chr_change_before){
 		var b=global.party[a.seq].seq

@@ -3,13 +3,13 @@
 
 //category : 1-과일 
 
-card_struct=function(nu,na,v,ins) constructor{
+card_struct=function(nu,na,v,ins,cn) constructor{
 	card_num=nu
 	card_name=na
 	card_value=v
 
 	card_ins=ins
-	card_n=0
+	card_n=cn
 }
 global.card_list_num=0
 ///////////////////////////////////////[7][8]
