@@ -8,7 +8,7 @@ enemy_seq=0
 
 
 skill=0
-
+show_message(nameof(self))
 
 a=instance_create_depth(room_width/2-room_width/4,room_height/2,-98,obj_enlarge_sd)
 with(a){

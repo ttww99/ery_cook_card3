@@ -15,6 +15,8 @@ global.card_hand=0//초기 손퍂 수
 global.card_hand_max=10
 global.card_hand_next=0
 
+global.any_skill_active=0//스킬이 하나라도 활성화되지 않았다면
+
 global.enemy_seq[1]=0
 global.enemy_seq[2]=0
 global.enemy_seq[3]=0
@@ -36,6 +38,12 @@ for(global.imsi=0;global.imsi<global.party_max;global.imsi++){//아군 캐릭터
 	with(a){
 		depth=-90
 			seq=global.party[global.party_max-global.imsi-1].seq//global.imsi
+			
+			if(seq==0)
+				skill_active=-1
+			else
+				skill_active=0
+
 			hp=global.char_list[seq].char_hp
 			seq_imsi=3-global.imsi
 			if(seq!=0){

@@ -11,5 +11,4 @@ global.imsi_with3=0
 global.imsi_with4=0
 global.imsi_with5=0
 
-skill_active=0
-
+skill_active=-1

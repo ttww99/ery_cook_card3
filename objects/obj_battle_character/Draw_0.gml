@@ -12,7 +12,7 @@ draw_rectangle_color(x-sprite_width/12,y+sprite_height/4/4/4*8,x-sprite_width/12
 draw_text(x,y+sprite_height/4/4/4/2*17,string(global.char_hp[seq])+string(" /  ")+string(global.char_list[seq].char_hp))
 
 
-draw_text(x,y-sprite_height/4/4/4/2*14,seq_imsi)
+draw_text(x,y-sprite_height/4/4/4/2*14,"seq_imsi : "+string(seq_imsi))
 draw_text(x,y-sprite_height/4/4/4/2*16,string("front_seq : ")+string(front_seq))
 }
 //draw_text(x,y-sprite_height/4/4/4/2*16,seq)

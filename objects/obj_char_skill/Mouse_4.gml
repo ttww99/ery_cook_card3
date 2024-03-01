@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+global.any_skill_active=1
 if(global.battle_turn_pre==global.battle_turn){
 	
 	if(x-sprite_xoffset/2<mouse_x && x+sprite_xoffset/2>mouse_x &&

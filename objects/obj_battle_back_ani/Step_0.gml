@@ -14,6 +14,7 @@ if(ani_x==160){
 	}
 //show_message(global.enemy_list[global.enemy_seq[enemy_seq]].enemy_hp)
 }
+
 if(ani_x>=320+64){
 		global.battle_fellow_turn--;
 
@@ -26,18 +27,11 @@ if(ani_x>=320+64){
 					//show_message(global.party[global.battle_fellow_turn].skill_active)
 					break;
 				}
-		 
-		
-		
-		
-		
-		
-	}
+		}
 
-		if(global.battle_fellow_turn<0){
-			//global.battle_turn+=1
-			//obj_enemy.set_attack=0
-		//	global.battle_enemy_turn+=1
+
+		if(global.any_skill_active==0){
+			global.battle_fellow_turn=-1
 			global.battle_enemy_turn=1
 		}
 
