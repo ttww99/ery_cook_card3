@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if(mouse_on_show==1 && mouse_x>=x-sprite_width/12 && mouse_x<=x+sprite_width/12 &&
+//show_message("dsad "+string(global.battle_turn)+"  "+string(global.battle_turn_pre))
+if((global.battle_fellow_turn+global.battle_enemy_turn<=-1&&global.battle_enemy_turn==0) && mouse_on_show==1 && mouse_x>=x-sprite_width/12 && mouse_x<=x+sprite_width/12 &&
 mouse_y >= y-sprite_height/12 && mouse_y<= y+sprite_height/12){
 	ddrag=1
 	if(card_sequence<global.card_hand_next){

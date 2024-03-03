@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-
+/*
 draw_text(100,140,string("손패 : ")+string(global.card_hand))
 for(var i=1;i<=global.card_list_num;i++)
 	draw_text(100+24*i,192,ds_list_find_value(global.card_no_seq,i))
@@ -16,3 +16,5 @@ for(var i=0;i<4;i++)
 	
 	
 draw_text(800,100,string("enemy turn : ")+string(global.battle_enemy_turn))
+
+*/

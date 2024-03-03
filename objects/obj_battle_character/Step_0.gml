@@ -5,8 +5,8 @@ if(global.battle_fellow_turn==seq_imsi && !instance_exists(obj_battle_back_ani))
 //if(global.battle_fellow_turn==front_seq-1 && !instance_exists(obj_battle_back_ani)){
 	global.imsi_with1=seq
 	
-		show_message("errr")
-		show_message(" errrr "+string(global.imsi_with1))
+		//show_message("errr")
+		//show_message(" errrr "+string(global.imsi_with1))
 		
 	with(obj_char_skill){
 		//show_message("! "+string(num)+string(" ")+string(global.imsi_with1))
@@ -31,11 +31,11 @@ if(global.battle_fellow_turn==seq_imsi && !instance_exists(obj_battle_back_ani))
 			}
 		}
 	}
-	/*
+	
 	global.battle_fellow_turn++
 	if(global.char_party_num<global.battle_fellow_turn){
 		global.battle_turn+=1
 		global.battle_fellow_turn=-2
 	}
-	*/
+	
 }

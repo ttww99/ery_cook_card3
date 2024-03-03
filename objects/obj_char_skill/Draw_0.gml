@@ -12,5 +12,5 @@ else
 		draw_sprite_ext(sprite_index,global.char_list[num].char_skill2,x,y,1/2,1/2,0,c_white,1)
 
 //draw_text(x,y,selected)
-draw_text(x,y,num)
+//draw_text(x,y,num)
 

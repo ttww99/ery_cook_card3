@@ -15,7 +15,7 @@ draw_text(x,y+sprite_height/4/4/4*9,global.enemy_hp[seq])
 
 draw_set_font(font_enemy_attack)
 draw_text_ext_transformed_color(x,y-sprite_height/4/4/4*12,enemy_turn_attack,16,16,4,4,0,c_red,c_orange,c_red,c_orange,1)
-draw_text_ext_transformed_color(x,y-sprite_height/4/4/4*64,global.imsi_with1,16,16,4,4,0,c_blue,c_blue,c_blue,c_blue,1)
+//draw_text_ext_transformed_color(x,y-sprite_height/4/4/4*64,global.imsi_with1,16,16,4,4,0,c_blue,c_blue,c_blue,c_blue,1)
 draw_sprite_ext(spr_monster_attack_icon,0,x-sprite_width/4/4/4*8,y-sprite_height/4/4/4*12,2,2,0,c_white,1)
 
 

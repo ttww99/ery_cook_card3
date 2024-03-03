@@ -3,7 +3,8 @@ draw_set_font(font_32)
 //draw_text(x,y-160,ddrag)
 //draw_text(x,y-128,card_sequence)
 draw_set_font(Font1)
-draw_text(x,y-200,card_num)
+
+//***draw_text(x,y-200,card_num)
 
 if(global.card_deleted_index=card_sequence)
 	draw_text(mouse_x+128,mouse_y,string("global.delete : ")+string(global.card_deleted_index))
@@ -50,6 +51,8 @@ if(card_sequence<global.card_hand_next && mouse_on_show==1 && ddrag==0 && des==0
 	global.card_list[card_num].card_ins)
 	*/
 	//show_message(global.card_list[card_num].card_ins)
+	
+
 	draw_text_ext_transformed_color(x,y-sprite_height/48-imsi,
 	global.card_list[card_num].card_ins,24,24,1,1,0,c_white,c_white,c_white,c_white,1)
 
@@ -74,4 +77,4 @@ if(ddrag==1){
  
 }
 
-draw_text(x,y-100,image_angle)
+//***draw_text(x,y-100,image_angle)
